@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* Spaces - Main */
+:root {
+    --space-step--5: clamp(0.03125rem, 0.0278rem + 0.0139vi, 0.0391rem);
+    --space-step--4: clamp(0.0625rem, 0.0556rem + 0.0278vi, 0.0781rem);
+    --space-step--3: clamp(0.125rem, 0.1111rem + 0.0556vi, 0.1563rem);
+    --space-step--2: clamp(0.25rem, 0.2222rem + 0.1111vi, 0.3125rem);
+    --space-step--1: clamp(0.375rem, 0.3333rem + 0.1667vi, 0.4688rem);
+
+    --space-step-1: clamp(0.5rem, 0.4444rem + 0.2222vi, 0.625rem);
+    --space-step-2: clamp(1rem, 0.8889rem + 0.4444vi, 1.25rem);
+    --space-step-3: clamp(1.5rem, 1.3333rem + 0.6667vi, 1.875rem);
+    --space-step-4: clamp(2rem, 1.7778rem + 0.8889vi, 2.5rem);
+    --space-step-5: clamp(2.5rem, 2.2222rem + 1.1111vi, 3.125rem);
+    --space-step-6: clamp(3rem, 2.6667rem + 1.3333vi, 3.75rem);
+    --space-step-7: clamp(4rem, 3.5556rem + 1.7778vi, 5rem);
+    --space-step-8: clamp(5rem, 4.4444rem + 2.2222vi, 6.25rem);
+    --space-step-9: clamp(6rem, 5.3333rem + 2.6667vi, 7.5rem);
+}
+
+/* Spaces - Pixel */
+:root {
+  /* Zero and minimal spacing */
+  --space-0: 0px;      /* No spacing */
+  --space-1: 1px;      /* Hairline spacing */
+  --space-2: 2px;      /* Very tight */
+  --space-4: 4px;      /* Tight */
+
+  /* Small spacings */
+  --space-8: 8px;      /* Small spacing */
+  --space-12: 12px;
+  --space-16: 16px;    /* Comfortable small spacing */
+
+  /* Medium spacings */
+  --space-20: 20px;    /* Medium spacing */
+  --space-24: 24px;
+  --space-32: 32px;    /* Comfortable medium spacing */
+
+  /* Large spacings */
+  --space-40: 40px;    /* Large spacing */
+  --space-48: 48px;
+  --space-64: 64px;    /* Comfortable large spacing */
+
+  /* Extra large spacings */
+  --space-80: 80px;    /* Extra large spacing */
+  --space-96: 96px;
+  --space-128: 128px;  /* Massive spacing */
+}
+
+
+/* Font Sizes */
+:root {
+    --font-size-xs: 0.75rem; /* 12px */
+    --font-size-sm: 0.875rem; /* 14px */
+    --font-size-base: 1rem; /* 16px */
+    --font-size-lg: 1.125rem; /* 18px */
+    --font-size-xl: 1.25rem; /* 20px */
+    --font-size-2xl: 1.5rem; /* 24px */
+    --font-size-3xl: 1.875rem; /* 30px */
+    --font-size-4xl: 2.25rem; /* 36px */
+    --font-size-5xl: 3rem; /* 48px */
+    --font-size-6xl: 3.75rem; /* 60px */
+    --font-size-7xl: 4.5rem; /* 72px */
+    --font-size-8xl: 6rem; /* 96px */
+    --font-size-9xl: 8rem; /* 128px */
+}
+
+/* Font Weights */
+:root {
+  --font-weight-thin: 100;       /* Thin (Hairline) */
+  --font-weight-extra-light: 200; /* Extra Light (Ultra Light) */
+  --font-weight-light: 300;      /* Light */
+  --font-weight-normal: 400;     /* Normal (Regular) */
+  --font-weight-medium: 500;     /* Medium */
+  --font-weight-semi-bold: 600;  /* Semi-Bold  */
+  --font-weight-bold: 700;       /* Bold */
+  --font-weight-extra-bold: 800; /* Extra Bold (Ultra Bold) */
+  --font-weight-black: 900;      /* Black (Heavy) */
+}
+
+/* Colors */
+:root {
+    /* Primary */
+    --green-400: hsl(172, 67%, 45%);
+
+    /* Neutral */
+    --grey-900: hsl(183, 100%, 15%);
+    --grey-500: hsl(186, 14%, 43%);
+    --grey-400: hsl(184, 14%, 56%);
+    --grey-200: hsl(185, 41%, 84%);
+    --grey-50: hsl(189, 47%, 97%);
+    --white: hsl(0, 100%, 100%);
+}
+
