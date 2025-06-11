@@ -15,12 +15,47 @@
         <title>Frontend Mentor | Tip calculator app</title>
     </head>
     <body>
+        <img src="./images/logo.svg" alt="" srcset="" />
         <div class="calculator__container">
             <section class="calculator__left-section">
-                Bill Select Tip % 5% 10% 15% 25% 50% Custom Number of People
+                <h4>Bill</h4>
+                <div class="bill-textbox">
+                    <img src="./images/icon-dollar.svg" alt="" srcset="" />
+                    <input type="number" name="" id="" />
+                </div>
+                <h4>Select Tip %</h4>
+                <div class="tip-selections__container">
+                    <button class="tip-select__button">5%</button>
+                    <button class="tip-select__button">10%</button>
+                    <button class="tip-select__button">15%</button>
+                    <button class="tip-select__button">25%</button>
+                    <button class="tip-select__button">50%</button>
+                    <button class="tip-select__button">Custom</button>
+                </div>
+                <h4>Number of People</h4>
+                <div class="number-of-people-textbox">
+                    <img src="./images/icon-person.svg" alt="" srcset="" />
+                    <input type="number" name="" id="" />
+                </div>
             </section>
             <section class="calculator__right-section">
-                Tip Amount / person Total / person Reset
+                <div class="right-section__top__container">
+                    <div class="right-section__item">
+                        <div class="item__container">
+                            <h4>Tip Amount</h4>
+                            <p>/ person</p>
+                        </div>
+                        <h1>$4.27</h1>
+                    </div>
+                    <div class="right-section__item">
+                        <div class="item__container">
+                            <h4>Total</h4>
+                            <p>/ person</p>
+                        </div>
+                        <h1>$32.79</h1>
+                    </div>
+                </div>
+                <button class="reset-button">Reset</button>
             </section>
         </div>
 

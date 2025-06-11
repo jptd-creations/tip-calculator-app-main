@@ -15,10 +15,28 @@
     back
 } */
 
+.tip-selections__container button {
+    cursor: pointer;
+}
+
 .calculator__right-section {
     background-color: var(--green-600);
     border-radius: 12px;
     padding: var(--space-12);
+}
+
+.calculator__right-section .right-section__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reset-button {
+    cursor: pointer;
+}
+
+.bill-textbox {
+    display: flex;
 }
 
 .attribution {

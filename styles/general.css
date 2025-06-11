@@ -1,7 +1,10 @@
+@import url('https://fonts.google.com/specimen/Space+Mono');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Space Mono", monospace;
 }
 
 html {
@@ -38,33 +41,32 @@ body {
 
 /* Spaces - Pixel */
 :root {
-  /* Zero and minimal spacing */
-  --space-0: 0px;      /* No spacing */
-  --space-1: 1px;      /* Hairline spacing */
-  --space-2: 2px;      /* Very tight */
-  --space-4: 4px;      /* Tight */
+    /* Zero and minimal spacing */
+    --space-0: 0px; /* No spacing */
+    --space-1: 1px; /* Hairline spacing */
+    --space-2: 2px; /* Very tight */
+    --space-4: 4px; /* Tight */
 
-  /* Small spacings */
-  --space-8: 8px;      /* Small spacing */
-  --space-12: 12px;
-  --space-16: 16px;    /* Comfortable small spacing */
+    /* Small spacings */
+    --space-8: 8px; /* Small spacing */
+    --space-12: 12px;
+    --space-16: 16px; /* Comfortable small spacing */
 
-  /* Medium spacings */
-  --space-20: 20px;    /* Medium spacing */
-  --space-24: 24px;
-  --space-32: 32px;    /* Comfortable medium spacing */
+    /* Medium spacings */
+    --space-20: 20px; /* Medium spacing */
+    --space-24: 24px;
+    --space-32: 32px; /* Comfortable medium spacing */
 
-  /* Large spacings */
-  --space-40: 40px;    /* Large spacing */
-  --space-48: 48px;
-  --space-64: 64px;    /* Comfortable large spacing */
+    /* Large spacings */
+    --space-40: 40px; /* Large spacing */
+    --space-48: 48px;
+    --space-64: 64px; /* Comfortable large spacing */
 
-  /* Extra large spacings */
-  --space-80: 80px;    /* Extra large spacing */
-  --space-96: 96px;
-  --space-128: 128px;  /* Massive spacing */
+    /* Extra large spacings */
+    --space-80: 80px; /* Extra large spacing */
+    --space-96: 96px;
+    --space-128: 128px; /* Massive spacing */
 }
-
 
 /* Font Sizes */
 :root {
@@ -85,15 +87,15 @@ body {
 
 /* Font Weights */
 :root {
-  --font-weight-thin: 100;       /* Thin (Hairline) */
-  --font-weight-extra-light: 200; /* Extra Light (Ultra Light) */
-  --font-weight-light: 300;      /* Light */
-  --font-weight-normal: 400;     /* Normal (Regular) */
-  --font-weight-medium: 500;     /* Medium */
-  --font-weight-semi-bold: 600;  /* Semi-Bold  */
-  --font-weight-bold: 700;       /* Bold */
-  --font-weight-extra-bold: 800; /* Extra Bold (Ultra Bold) */
-  --font-weight-black: 900;      /* Black (Heavy) */
+    --font-weight-thin: 100; /* Thin (Hairline) */
+    --font-weight-extra-light: 200; /* Extra Light (Ultra Light) */
+    --font-weight-light: 300; /* Light */
+    --font-weight-normal: 400; /* Normal (Regular) */
+    --font-weight-medium: 500; /* Medium */
+    --font-weight-semi-bold: 600; /* Semi-Bold  */
+    --font-weight-bold: 700; /* Bold */
+    --font-weight-extra-bold: 800; /* Extra Bold (Ultra Bold) */
+    --font-weight-black: 900; /* Black (Heavy) */
 }
 
 /* Colors */
@@ -111,4 +113,3 @@ body {
     --grey-50: hsl(189, 47%, 97%);
     --white: hsl(0, 100%, 100%);
 }
-
